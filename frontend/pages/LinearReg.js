@@ -6,7 +6,7 @@ import { useIrisData } from "../Components/Iris";
 import LRTable from "../Components/LRTable";
 import LRGraph from "../Components/LRGraph";
 import LRMetrics from "../Components/LRMetrics";
-
+import Navbar from "../Components/Navigation";
 function LR() {
   const Irisdata = useIrisData();
   const model=1;
@@ -39,6 +39,7 @@ function LR() {
 
   return (
     <>
+        <Navbar />
       <LRInput onColumnsSelect={handleColumnsSelect} />
 
       {/* 🔥 Now pass result instead of raw data */}
