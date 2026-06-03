@@ -8,10 +8,8 @@ import RandomForest from "./pages/RandomForest";
 import Comparison from "./pages/Comparison";
 
 function App() {
-  return (
-  
+  return (  
     <BrowserRouter>
-
       {/* ✅ Navbar visible everywhere */}
       <Navigation />
 
