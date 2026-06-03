@@ -9,7 +9,7 @@ import Comparison from "./pages/Comparison";
 
 function App() {
   return (
-    
+  
     <BrowserRouter>
 
       {/* ✅ Navbar visible everywhere */}
