@@ -1,3 +1,4 @@
+
 📊 LR vs RF – React App
 A simple React application to compare Linear Regression, Random Forest, and K-Nearest Neighbors (KNN) models through visualizations and predictions.
 
